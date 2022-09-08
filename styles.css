@@ -1,16 +1,32 @@
+/**Buttons**/
+.back-btn{
+    position: fixed;
+    right: 4rem;
+    bottom: 3rem;
+    background-color: #f76746;
+    color: #fff;
+    padding: .6rem;
+    clip-path: circle();
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.back-btn:hover{
+    background-color: rgb(172, 172, 172);
+    color: #fff;
+}
+
+/**Fonts**/
 h1{
     font-family: 'Lobster', cursive;
     font-size: 4rem !important;
 }
 
+/**Images**/
 .img-circle{
     width: 200px;
     height: auto;
     clip-path: circle();
-}
-
-.recipe-card:hover{
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
 
 .chef-icon{
@@ -35,19 +51,7 @@ h1{
     border-radius: 1rem;
 }
 
-.back-btn{
-    position: fixed;
-    right: 4rem;
-    bottom: 3rem;
-    background-color: #f76746;
-    color: #fff;
-    padding: .6rem;
-    clip-path: circle();
-    text-decoration: none;
-    transition: 200ms;
-}
-
-.back-btn:hover{
-    background-color: rgb(172, 172, 172);
-    color: #fff;
+/**Layout**/
+.recipe-card:hover{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
 }
