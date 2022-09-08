@@ -1,3 +1,8 @@
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 4rem !important;
+}
+
 .img-circle{
     width: 200px;
     height: auto;
@@ -9,7 +14,7 @@
 }
 
 .chef-icon{
-    width: 100px;
+    width: 75px;
     height: auto;
 }
 
@@ -28,4 +33,21 @@
     height: 100%;
     object-fit: cover;
     border-radius: 1rem;
+}
+
+.back-btn{
+    position: fixed;
+    right: 4rem;
+    bottom: 3rem;
+    background-color: #f76746;
+    color: #fff;
+    padding: .6rem;
+    clip-path: circle();
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.back-btn:hover{
+    background-color: rgb(172, 172, 172);
+    color: #fff;
 }
